@@ -1,0 +1,19 @@
+{
+    "nodes": [{
+        "id": "A", "label": "A", "size": 1,
+        "color": "#1ecc19","firefighters": true
+    }, {
+        "id": "B", "label": "B", "size": 1,
+        "color": "red","firefighters": false
+    }, {
+        "id": "C", "label": "C", "size": 1,
+        "color": "red","firefighters": false
+    }, {
+        "id": "D", "label": "D", "size": 1,
+        "color": "red","firefighters": false
+    }],
+    "edges": [{"id": "e1", "source": "A", "target": "B", "timeToTraverse":5},
+		{"id": "e2", "source": "A", "target": "C", "timeToTraverse":10},
+		{"id": "e3", "source": "A", "target": "D", "timeToTraverse":15}],
+    "max_time":6
+}
